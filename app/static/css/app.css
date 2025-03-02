@@ -1,3 +1,51 @@
 body {
     padding-top: 5rem;
 }
+
+.form_section :first-child {
+    font-weight: bold;
+}
+
+.form_section {
+    margin-bottom: 15px;
+}
+
+.required {
+    color: red;
+}
+
+label,
+.desc {
+    margin-bottom: 8px;
+}
+
+#name,
+#email,
+#subject {
+    width: 200px;
+    height: 30px;
+}
+
+#message {
+    resize: both;
+    width: 300px;
+    height: 100px;
+}
+
+.form-btn {
+    border: none;
+    background-color: #2987CD;
+    border-radius: 3px;
+    color: white;
+    width: 100px;
+    height: 35px;
+}
+
+.form-btn:hover {
+    background-color: #1e5d8a;
+}
+
+.flashes {
+    color: darkgreen;
+    font-weight: bold;
+}
